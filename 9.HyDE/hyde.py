@@ -56,9 +56,8 @@ class CustomHypotheticalDocumentEmbedder:
 
     def _generate_hypothetical_document(self, query: str) -> str:
         hypothetical_document = self.llm_chain.invoke({"query": query})
-        logger.info(f"Hypothetical document generated:\n{hypothetical_document.content}")
-        return hypothetical_document.content
-
+        logger.info(f"Hypothetical document generated:\n{hypothetical_document}")
+        return hypothetical_document
 
     def invoke(self, query: str) -> list[Document]:
         hypothetical_document = self._generate_hypothetical_document(query)
