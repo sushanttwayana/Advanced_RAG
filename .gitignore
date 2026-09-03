@@ -1,3 +1,5 @@
 .env
 .env_example
 4.Vector_Store/db
+
+.venv
