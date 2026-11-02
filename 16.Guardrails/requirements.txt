@@ -7,3 +7,11 @@ langchain-chroma
 ipykernel
 python-dotenv
 guardrails-ai
+langgraph
+langchain-groq
+nltk
+guardrails-ai-detect-pii
+guardrails-ai-toxic-language
+guardrails-ai-detect-jailbreak
+guardrails-ai-restrict-to-topic
+guardrails-ai-response-evaluator
